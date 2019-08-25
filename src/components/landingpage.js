@@ -14,12 +14,12 @@ class Landing extends Component {
 						alt = "avatar"
 						className = "avatar" />
 						<div className = "banner-text">
-							<h1> Full Stack Web Developer </h1>
+							<h1> Computer Engineer </h1>
 
 							<hr/> 
 
 							
-						<p> Computer Engineering graduate from Queen’s University. Brings a diversified portfolio of data analysis, product design and database management. Actively pursues exploring new API’s and other open source projects. Adapts to change and learns new skills quickly. Enjoys working in a team environment and discussing technical subjects with peers. </p>
+						<p> New graduate from Queen’s University, Kingston, Canada. Brings a diversified portfolio of data analysis, product design and database management. Actively pursues exploring new API’s and other open source projects. Adapts to change and learns new skills quickly. Enjoys working in a team environment and discussing technical subjects with peers. </p>
 							
 							<div className = "social-links">
 								
