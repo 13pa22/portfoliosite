@@ -51,7 +51,8 @@ class Resume extends Component {
 					<Education startYear={2015}
 					 endYear={2019} 
 					 schoolName={'Queens University, Kingston'} 
-					 schoolDescription={'Bachelors in Computer Engineering, fundamentals of software and hardware design mixed with practical engineering training'} />
+					 title = {'Bachelors in Computer Engineering, '}
+					 schoolDescription={'Fundamentals of software and hardware design mixed with practical engineering training. Software courses include programming languages, data structures and algorithms, operating systems, real-time software design, databases, compilers, software requirements analysis, formal methods in software engineering, and techniques for human-computer interaction.'} />
 				
 					<hr style={{borderTop: '3px solid #e22947'}}/>
 
@@ -60,6 +61,7 @@ class Resume extends Component {
 					<Experience startYear={'May 2018'}
 					endYear={'September 2018'}
  					jobName={'Viamo'} 
+ 					title = {'Data Analyst Intern'}
 					jobDescription={'Bachelors in Computer Engineering, fundamentals of software and hardware design mixed with practical engineering training'} />
 
 					<hr style={{borderTop: '3px solid #e22947'}}/>
