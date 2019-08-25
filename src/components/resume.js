@@ -13,7 +13,7 @@ class Resume extends Component {
 			<Grid>
 
 
-				<Cell col = {4}> Left Side 
+				<Cell col = {4}>
 
 				<div style={{textAlign:'center'}}>
 
@@ -27,11 +27,11 @@ class Resume extends Component {
 				<h2 style={{paddingTop: '2em'}}> Paritosh Arya B.ASc (Computer Engineering) </h2>
 				
 				
-				<hr style={{borderTop: '3px solid #833fb2' , width: '50%'}} />
+				<hr style={{borderTop: '3px solid #833fb2' , width: '90%'}} />
 				
 				<p>  Brings a diversified portfolio of data analysis, product design and database management. Actively pursues exploring new API’s and other open source projects. Adapts to change and learns new skills quickly. Enjoys working in a team environment and discussing technical subjects with peers.</p>
 				
-				<hr style={{borderTop: '3px solid #833fb2' , width: '50%'}} />
+				<hr style={{borderTop: '3px solid #833fb2' , width: '90%'}} />
 				<h6>Phone </h6>
 				<p>647-785-9987 </p>
 				<h6>Email</h6>
@@ -39,7 +39,7 @@ class Resume extends Component {
 				<h6>Address </h6>
 				<p> 1 Alistair Crescent, Vaughan, ON, L4H 4T7 </p>
 				
-				<hr style={{borderTop: '3px solid #833fb2' , width: '50%'}} />
+				<hr style={{borderTop: '3px solid #833fb2' , width: '90%'}} />
 				<h7> Updated in 2019</h7>
 				</Cell>
 
