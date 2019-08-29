@@ -65,6 +65,19 @@ class Resume extends Component {
  					title = {'Data Analyst Intern'}
 					jobDescription={'Executed SQL queries for extensive analysis and coordinated project implementation with teams throughout Sub-Saharan Africa. Used database collections to quantify behavioral analysis models for marketing pilot projects exploring user retention trends.'} />
 
+					<Experience startYear={'September 2017'}
+					endYear={'May 2018'}
+ 					jobName={'Clark Hall Pub'} 
+ 					title = {'Bar DJ/Audio Technician'}
+					jobDescription={'Entertained pub patrons with musical pieces and provided audio technical support services to visiting musical acts.'} />
+
+					<Experience startYear={'September 2016'}
+					endYear={'May 2017'}
+ 					jobName={'Engineering Society of Queen’s University'} 
+ 					title = {'Integrated Learning Centre Representative'}
+					jobDescription={'Maintained learning tools and electronic lab equipment for students, gave tours of student facility to visitors, managed rentals of equipment'} />
+
+
 					<hr style={{borderTop: '3px solid #833fb2'}}/>
 					<h2> Technical Projects </h2>
 					<Technical startYear={'September 2018'}

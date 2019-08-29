@@ -25,7 +25,7 @@ class Contact extends Component {
 							<p style = { {width: '75%'}, {margin: 'auto'}, {paddingTop : '1em'} } >
 								
 
-								Trained in data structures, algorithms, and OOP in popular languages Java, C , C++.
+								Trained in data structures, algorithms, and OOP in Java. Solid experience in C / C++.
 								Knowledgeable in web development processes, databases administration, UX/UI design, cloud services (Amazon EC2). 
 								Thorough training in project management, IoT prototyping, design thinking.
 								Introductory level courses in data mining/analysis, machine learning and Artificial Intelligence.
