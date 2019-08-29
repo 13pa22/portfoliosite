@@ -42,13 +42,14 @@ class Project extends Component {
 	else if (this.state.activeTab ==1){
 		return(
 			<Card shadow={5} style={{width: '512px', margin: 'auto'}}>
-			    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+			    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/4/4f/PhpMyAdmin_logo.svg) center / cover'}}></CardTitle>
 			    <CardText>
-			        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			        Mauris sagittis pellentesque lacus eleifend lacinia...
+			        A dynamic-content website built using PHP to structure webpage actions and MySQL as the back-end database. CRUD capabilities of PHP/MySQL demonstarted to administer content.
 			    </CardText>
 			    <CardActions border>
-			        <Button colored>Explore</Button>
+			        <a href="https://photos.app.goo.gl/c6maFhWodtrNTGBt5" target="_blank" rel = "noopener noreferrer" /*opens a new tab*/>
+						<Button colored >Explore</Button>
+								 </a>
 			    </CardActions>
 			    <CardMenu style={{color: '#fff'}}>
 			        <IconButton name="share" />
@@ -59,13 +60,21 @@ class Project extends Component {
 	else if (this.state.activeTab ==2){
 		return(
 			<Card shadow={5} style={{width: '512px', margin: 'auto'}}>
-			    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+			    <CardTitle style={{color: '#326da8', height: '176px', background: 'url(https://files.slack.com/files-pri/TA39L364V-FHGHWL61J/capture.png) center / cover'}}></CardTitle>
 			    <CardText>
-			        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			        Mauris sagittis pellentesque lacus eleifend lacinia...
+				    This 4th year capstone project is focused on an embedded system application that can plow driveways autonomously. This autonomous
+					application will eliminate the risk of injury to shovelling snow. The embedded system used will
+					be an FPGA chip and the language for the software being used will be C.
+
 			    </CardText>
 			    <CardActions border>
-			        <Button colored>Explore</Button>
+			        
+			       <a href="https://drive.google.com/file/d/1kT8ymgVtyJCOM2XeAwn--8mZlIY0ja7X/view?usp=sharing" target="_blank" rel = "noopener noreferrer" /*opens a new tab*/>
+						<Button colored >Explore</Button>
+								 </a>
+								 <a href="https://files.slack.com/files-pri/TA39L364V-FHGHWL61J/capture.png" target="_blank" rel = "noopener noreferrer" /*opens a new tab*/>
+						<Button colored >Visual</Button>
+								 </a>
 			    </CardActions>
 			    <CardMenu style={{color: '#fff'}}>
 			        <IconButton name="share" />
@@ -76,13 +85,17 @@ class Project extends Component {
 	else if (this.state.activeTab ==3){
 		return(
 			<Card shadow={5} style={{width: '512px', margin: 'auto'}}>
-			    <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
+			    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://viamo.io/wp-content/uploads/2017/06/viamo-logo-strapline-featured-1920x1080px.png) center / cover'}}></CardTitle>
 			    <CardText>
-			        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			        Mauris sagittis pellentesque lacus eleifend lacinia...
+			        Data Analysis conducted for Viamo's 321 Marketing Pilot. 321 Service by Viamo aims to 
+			        reach remote populations in Sub-Saharan Afica using IVR (voice-calling ) and SMS methods. By providing
+			        this connection, Viamo allows larger NGO firms to connect with the populations they work with directly.
+			        The marketing Pilot aims to study how effective the service is in retaining users who are drawn in with promotional offers.
 			    </CardText>
 			    <CardActions border>
-			        <Button colored>Explore</Button>
+			         <a href="https://drive.google.com/file/d/1GZ1PEsPqyAPRgu7tECcbVMQSxHcrC1jU/view?usp=sharing" target="_blank" rel = "noopener noreferrer" /*opens a new tab*/>
+						<Button colored >Explore</Button>
+								 </a>
 			    </CardActions>
 			    <CardMenu style={{color: '#fff'}}>
 			        <IconButton name="share" />
@@ -102,7 +115,7 @@ class Project extends Component {
 			<Tabs activeTab = {this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple>
 					<Tab>React </Tab>
 					
-					<Tab>CRUD </Tab>
+					<Tab>PHP/MySQL/CRUD </Tab>
 
 					<Tab>Embedded Systems </Tab>
 

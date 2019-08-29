@@ -36,6 +36,7 @@ class Resume extends Component {
 				<p>647-785-9987 </p>
 				<h6>Email</h6>
 				<p> paritosharya1996@gmail.com</p>
+				<p> paritosh.arya@queensu.ca</p>
 				<h6>Address </h6>
 				<p> 1 Alistair Crescent, Vaughan, ON, L4H 4T7 </p>
 				
@@ -54,7 +55,7 @@ class Resume extends Component {
 					 title = {'Bachelors in Computer Engineering, '}
 					 schoolDescription={'Fundamentals of software and hardware design mixed with practical engineering training. Software courses include programming languages, data structures and algorithms, operating systems, real-time software design, databases, compilers, software requirements analysis, formal methods in software engineering, and techniques for human-computer interaction.'} />
 				
-					<hr style={{borderTop: '3px solid #e22947'}}/>
+					<hr style={{borderTop: '3px solid #833fb2'}}/>
 
 					<h2> Experience </h2>
 
@@ -62,18 +63,22 @@ class Resume extends Component {
 					endYear={'September 2018'}
  					jobName={'Viamo'} 
  					title = {'Data Analyst Intern'}
-					jobDescription={'Bachelors in Computer Engineering, fundamentals of software and hardware design mixed with practical engineering training'} />
+					jobDescription={'Executed SQL queries for extensive analysis and coordinated project implementation with teams throughout Sub-Saharan Africa. Used database collections to quantify behavioral analysis models for marketing pilot projects exploring user retention trends.'} />
 
-					<hr style={{borderTop: '3px solid #e22947'}}/>
+					<hr style={{borderTop: '3px solid #833fb2'}}/>
 					<h2> Technical Projects </h2>
 					<Technical startYear={'September 2018'}
 					endYear={'May 2018'}
  					technicalName={'Autonomous Snow Plow Embedded System Project'} 
 					technicalDescription={'Design an autonomous vehicle built around SoC based solution. Develop routing algorithm for vehicle, implement hardware components into prototype product'} />
 
-				    <hr style={{borderTop: '3px solid #e22947'}}/>
+				    <hr style={{borderTop: '3px solid #833fb2'}}/>
 				    <h2> Skills </h2>
 				    <Skills skill= "Java"
+				    progress= '85'/>
+				    <Skills skill= "UX/UI"
+				    progress= '80'/>
+				    <Skills skill= "PHP"
 				    progress= '85'/>
 				    <Skills skill= "React"
 				    progress= '65'/>
