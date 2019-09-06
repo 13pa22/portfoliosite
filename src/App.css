@@ -108,7 +108,7 @@ margin: auto;
 }
 
 .banner-text h1 {
-
+  
   font-size: 66px;
   color: white;
   font-weight: bold;
@@ -125,6 +125,27 @@ margin: auto;
   color: white;
   font-size: 15px;
   padding: 1em;
+}
+
+.blog-text{
+  background-color: #5b7c82;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.blog-text h1 {
+  font-family: 'Oxygen',sans-serif;
+  font-size: 33px;
+  color: white;
+  font-weight: bold;
+   padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+
 }
 
 .social-links{

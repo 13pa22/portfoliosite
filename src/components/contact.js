@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Cell, Cells, Grid, List , ListItem, ListItemContent } from 'react-mdl';
+import { Cell,Grid, List , ListItem, ListItemContent } from 'react-mdl';
 class Contact extends Component {
 	render(){
 		return (
